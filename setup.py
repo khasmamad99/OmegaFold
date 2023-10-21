@@ -20,7 +20,7 @@ def get_url() -> str:
     else:
         _os = "linux_x86_64"
 
-    return f"https://download.pytorch.org/whl/cu113/torch-1.12.0%2Bcu113-{_ver}-{_ver}-{_os}.whl"
+    return f"https://download.pytorch.org/whl/cu116/torch-1.12.1%2Bcu116-{_ver}-{_ver}-{_os}.whl"
 
 setup(
     name="OmegaFold",
